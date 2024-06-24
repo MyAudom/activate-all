@@ -1,10 +1,3 @@
-/*
-
-TemplateMo 579 Cyborg Gaming
-
-https://templatemo.com/tm-579-cyborg-gaming
-
-*/
 
 /* ---------------------------------------------
 Table of contents
@@ -18,6 +11,7 @@ Table of contents
 07. testimonials
 08. contact
 09. footer
+10. code
 
 --------------------------------------------- */
 /* 
@@ -152,8 +146,8 @@ p {
 }
 
 .templatemo-item {
-	max-width: 80px; 
-	border-radius: 23px;
+	max-width: 800%; 
+	border-radius: 5px;
 }
 
 .main-button a {
@@ -870,24 +864,24 @@ Most Popular Style
 
 /* 
 ---------------------------------------------
-Gaming Library Style
+textcmd Library Style
 --------------------------------------------- 
 */
 
-.gaming-library {
+.textcmd-library {
   margin-top: 60px;
   padding: 30px;
   background-color: #1f2122;
   border-radius: 23px;
 }
 
-.gaming-library .item {
+.textcmd-library .item {
   border-bottom: 1px solid #27292a;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-.gaming-library .last-item {
+.textcmd-library .last-item {
   margin-bottom: 30px;
 }
 
@@ -897,39 +891,39 @@ Gaming Library Style
   margin-bottom: 0px;
 }
 
-.gaming-library .item ul li {
+.textcmd-library .item ul li {
   margin-top: 15px;
 }
 
-.gaming-library .item ul li img {
+.textcmd-library .item ul li img {
   margin-top: -30px;
 }
 
-.gaming-library .item ul li {
+.textcmd-library .item ul li {
   display: inline-block;
   width: 17%;
 }
 
-.gaming-library .item ul li:first-child {
+.textcmd-library .item ul li:first-child {
   width: 110px;
 }
 
-.gaming-library .item ul li:last-child {
+.textcmd-library .item ul li:last-child {
   width: 15%;
   text-align: right;
 }
 
-.gaming-library .item ul li h4 {
+.textcmd-library .item ul li h4 {
   font-size: 15px;
   margin-bottom: 5px;
 }
 
-.gaming-library .item ul li span {
+.textcmd-library .item ul li span {
   color: #666;
   font-size: 14px;
 }
 
-.gaming-library .main-button {
+.textcmd-library .main-button {
   text-align: center;
   margin-bottom: -53px;
 }
@@ -1636,13 +1630,13 @@ body {
   .main-banner h4 {
     font-size: 35px;
   }
-  .gaming-library .item ul li,
-  .gaming-library .item ul li:first-child,
-  .gaming-library .item ul li:last-child {
+  .textcmd-library .item ul li,
+  .textcmd-library .item ul li:first-child,
+  .textcmd-library .item ul li:last-child {
     width: 100% !important;
     text-align: center !important;
   }
-  .gaming-library .item ul li {
+  .textcmd-library .item ul li {
     margin-top: 30px;
   }
   .top-downloaded ul li .download i {
@@ -1685,10 +1679,10 @@ body {
   .heading-section h4 {
     font-size: 20px;
   }
-  .gaming-library .item ul li {
+  .textcmd-library .item ul li {
     width: 48% !important;
   }
-  .gaming-library .item ul li:last-child {
+  .textcmd-library .item ul li:last-child {
     text-align: left;
   }
   .featured-games {
@@ -1714,7 +1708,26 @@ body {
     margin-right: 30px;
     border-right: none;
   }
-  .gaming-library .item ul li {
+  .textcmd-library .item ul li {
     width: 16%;
   }
+}
+
+/* code  */
+.text_code{
+  color: #fff;
+}
+
+
+/* Button styling */
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background-color: #e75e8d;
+  border-radius: 50px;
+}
+.back-to-top:hover {
+  background-color: #e1326f;
 }
