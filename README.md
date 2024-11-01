@@ -1,1 +1,1 @@
-# activateall
+# activate-all
