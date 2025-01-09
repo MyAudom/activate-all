@@ -292,3 +292,6 @@
 			});
 	});
 })(window.jQuery);
+
+// Set the current year dynamically
+document.getElementById('year').textContent = new Date().getFullYear();
